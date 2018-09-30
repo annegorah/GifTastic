@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GifTastic!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="jumbotron mt-1 bg-info text-light">
+        
+            <h1 class="display-3">Let's get the Gifs!</h1>
+            <p class="lead">Search gif's of your favourite SitComs!</p>
+            <hr class="my-3">
+            <h4>There are already some Series listed for you!</h4>
+        
+        </div>
+    
+        
+        
+        <!-- buttons -->
+        <div class="row bg-white">
+        
+            <div class="col-md-12 col-sm-12 col-lg-12 button-wrapper border rounded"></div>
+        
+        </div>
+        
+        <div class="row mt-1">
+        
+            <!-- Gif Space -->
+            <div class="col-md-8 col-sm-8 col-lg-8 border rounded bg-white">
+                <div class="row gif-wrapper"></div>
+        
+            </div>
+        
+        
+            <!-- Search -->
+        
+            <div class="col-md-4 col-sm-4 col-lg-4 form-wrapper bg-white pr-0">
+        
+                <div class="card">
+                    <h3 class="card-header">What series are you thinking of?</h3>
+                    <div class="card-body">
+        
+                        <div class="input-group">
+                            <input type="text" class="form-control" id='submit-form' placeholder="Search for a SitCom">
+                            <div class="input-group-append">
+                                <button class="btn btn-dark" id='submit-button' type="button">Search</button>
+        
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+</html>
